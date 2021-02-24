@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -98,23 +98,55 @@
                       </h5>
                     </div>
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-md-12">
                             <p class="lead">
-                                Après 3 années dans le monde de la domotique, je me lance dans l'univers de la programmation web en tant que développeur full stack car la partie back-end me plait tout autant que la partie front.
+                                Passioné de technologie mes études se sont portés sur la domotique et les nouvelles énergies.
+                                Après un bts et un licence professionnelle ainsi que 3 années en entreprise dans ces domaines, 
+                                j'ai décidé de me former à programmation web qui est pour passion grandissante.
                             </p>  
-                        </div>
-                        <div class="col-md-3">
-                            <img class="img_apropos" src="assets/img/Ordi_code2.gif" alt="Code">
                         </div>
                     </div>
                     <div class="row mt-1">
-                        <div class="col-md-9">
+                        <div class="col-md-12">
                             <p class="lead">
-                            Actuellement à la recherche d'un stage me permettant de mettre en pratique les enseignements recus durant ma formation, je saurai mettre en avant mon sens de l'adaption et de l'autonomie pour m'intégrer à votre équipe.
+                              Je suis un fan inconditionnel de sport, de musique et de lecture. 
+                              J'aime relevé des défis, le travail en équipe et l'étude de problématique.
                             </p>                               
                         </div>
-                        <div class="col-md-3">
-                            <img class="img_apropos" src="assets/img/adaptation.jpg" alt="Code">
+                    </div>
+                    <div class="row mt-1">
+                        <div class="col-md-3 text-center">
+                            <img class="img_apropos" src="assets/img/code-2.jpg" alt="">                            
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img class="img_apropos" src="assets/img/randonnée.jpg" alt="">                             
+                        </div>
+                        <div class="col-md-3 text-center">
+                           <img class="img_apropos" src="assets/img/mental.jpg" alt="">                           
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img class="img_apropos" src="assets/img/bibliotheque.jpg" alt="">                         
+                        </div>
+                    </div>
+
+                    <div class="row mt-1">
+                            <h4>
+                              Pour en savoir plus
+                            </h4>
+                    </div>
+                    <div class="row mt-1 boxCvLinkedin">
+                                        <!------------ Lien CV et lonkedin ------------>
+                        <div class="col-md-4 text-center socialAPropos">
+                          <h5>Découvrir mon cv</h5>
+                          <a href="assets/file/CV-Victor-CLAIRE_Grenoble_.pdf" target="_blank"><span class="ico-circle"><i class="far fa-file"></i></span></a>
+                        </div>
+                        <div class="col-md-4 text-center socialAPropos">
+                          <h5>Télécharger mon cv</h5>
+                          <a href="assets/file/CV-Victor-CLAIRE_Grenoble_.pdf" download><span class="ico-circle"><i class="fas fa-download"></i></span></a>
+                        </div>
+                        <div class="col-md-4 text-center socialAPropos">
+                          <h5>Découvrir mon Linkedin</h5>
+                          <a href="https://www.linkedin.com/in/victor-claire-950533169/" target="_blank"><span class="ico-circle"><i class="fab fa-linkedin"></i></span></a>
                         </div>
                     </div>
                   </div>
@@ -183,64 +215,55 @@
       <div class="container">
         <div class="row">
                       <!-- ======= HTML Diagramme ======= -->
-          <div class="col-sm-3 col-lg-3">
-            <div class="counter-box counter-box pt-4 pt-md-0">
+          <div class="col-sm-2 col-lg-2">
+            <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico counterhtml">
                 <span class="ico-circle"><i class="fab fa-html5"></i></span>
-              </div>
-              <div class="counter-num">
-                <p class="counter">75</p><span class="counter-text"></span>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
               </div>
             </div>
           </div>
                         <!-- ======= CSS Diagramme ======= -->
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico countercss">
                 <span class="ico-circle"><i class="fab fa-css3-alt"></i></span>
               </div>
-              <div class="counter-num">
-                <p class="counter">70</p>
-                <span class="counter-text"></span>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-              </div>
             </div>
           </div>
                       <!-- ======= JS Diagramme ======= -->
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico counterjs">
                 <span class="ico-circle"><i class="fab fa-js"></i></span>
               </div>
-              <div class="counter-num">
-                <p class="counter">70</p>
-                <span class="counter-text"></span>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-              </div>
             </div>
           </div>
                       <!-- ======= PHP Diagramme ======= -->
-          <div class="col-sm-3 col-lg-3">
+          <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico counterphp">
                 <span class="ico-circle"><i class="fab fa-php"></i></span>
               </div>
-              <div class="counter-num">
-                <p class="counter">80</p>
-                <span class="counter-text"></span>
-              </div>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%";></div>
+            </div>
+          </div>
+        
+                      <!-- ======= GIT Diagramme ======= -->
+          <div class="col-sm-2 col-lg-2">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico countergit">
+                <span class="ico-circle"><i class="fab fa-github"></i></span>
               </div>
             </div>
           </div>
+                        <!-- ======= SQL Diagramme ======= -->
+          <div class="col-sm-2 col-lg-2">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico countersql">
+                <span class="ico-circle"><i class="fas fa-database"></i></span>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -263,11 +286,12 @@
           </div>
         </div>
         <div class="row">
+          <!-- ====================== Projets site département    ===================== -->
           <div class="col-md-3">
             <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
+              <a href="assets/img/Screen_projet_departement.png" data-gall="portfolioGallery" class="venobox">
                 <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                  <img src="assets/img/Screen_projet_departement.png" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -275,18 +299,19 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Site départemental</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Front end</span> / <span class="w-date">2020</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="ion-ios-plus-outline"></span></a>
+                      <a href="Projets/projet_4_site_departement/Accueil.html" target="_blank"> <span class="ion-ios-plus-outline"></span></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- ====================== Projets site restaurant    ===================== -->
           <div class="col-md-3">
             <div class="work-box">
               <a href="assets/img/work-2.jpg" data-gall="portfolioGallery" class="venobox">
@@ -299,7 +324,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Site Retaurant</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">2020</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -323,7 +348,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">E-commerce</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Back end</span> / <span class="w-date">2020</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -347,7 +372,7 @@
                   <div class="col-sm-8">
                     <h2 class="w-title">Jeux</h2>
                     <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                      <span class="w-ctegory">Front end/Javascript</span> / <span class="w-date">2020</span>
                     </div>
                   </div>
                   <div class="col-sm-4">
@@ -364,9 +389,10 @@
         </div>
       </div>
     </section>
-    <!-- Fin de projet -->
+    <!--------------------------- Fin de projet------------------------- -->
 
-    <!-- ======= Profil ======= -->
+    <!------------------------- ======= Profil ======= --------------->
+    <section id="blog" class="blog-mf sect-pt4 route">
     <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
@@ -404,122 +430,11 @@
         </div>
       </div>
     </div>
-    <!-- fin de profil -->
-
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">
-              <h3 class="title-a">
-                Blog
-              </h3>
-              <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              </p>
-              <div class="line-mf"></div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Travel</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-blog">
-              <div class="card-img">
-                <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-              </div>
-              <div class="card-body">
-                <div class="card-category-box">
-                  <div class="card-category">
-                    <h6 class="category">Web Design</h6>
-                  </div>
-                </div>
-                <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
-                <p class="card-description">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
-                  a pellentesque nec,
-                  egestas non nisi.
-                </p>
-              </div>
-              <div class="card-footer">
-                <div class="post-author">
-                  <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                    <span class="author">Morgan Freeman</span>
-                  </a>
-                </div>
-                <div class="post-date">
-                  <span class="ion-ios-clock-outline"></span> 10 min
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Blog Section -->
-
+    </section>
+    <!--------------------- fin de profil ------------------->
+    <div>
+      <p>eededede</p>
+    </div>
     <!-- ======= Contact Section ======= -->
     <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
@@ -529,10 +444,10 @@
             <div class="contact-mf">
               <div id="contact" class="box-shadow-full">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <div class="title-box-2">
                       <h5 class="title-left">
-                        Send Message Us
+                        Me contacter:
                       </h5>
                     </div>
                     <div>
@@ -540,65 +455,56 @@
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="Veuillez entrer votre nom svp" />
                               <div class="validate"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Votre mail" data-rule="email" data-msg="Veuillez entrer une adresse mail valide svp" />
                               <div class="validate"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Veuillez entrer le sujet de votre message svp" />
                               <div class="validate"></div>
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Veuillez nous écrire votre message svp" placeholder="Message"></textarea>
                               <div class="validate"></div>
                             </div>
                           </div>
                           <div class="col-md-12 text-center mb-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">Chargement</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">votre message a été envoyé avec succès, merci! </div>
                           </div>
                           <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                            <button type="submit" class="button button-a button-big button-rouded">Envoyer le message</button>
                           </div>
                         </div>
                       </form>
                     </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="title-box-2 pt-4 pt-md-0">
-                      <h5 class="title-left">
-                        Get in Touch
-                      </h5>
+
+
+                    <div class="mt-10 title-box-2 pt-4 pt-md-0   text-center">
+                      <div class="more-info ">
+                        <ul class="list-ico ">
+                          <li><span class="ion-ios-location"></span>France Grenoble 38000 </li>
+                          <li><span class="ion-ios-telephone"></span>06.13.36.75.68</li>
+                          <li><span class="ion-email"></span>12victorc@gmail.com</li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="more-info">
-                      <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
-                      </p>
-                      <ul class="list-ico">
-                        <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                        <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                        <li><span class="ion-email"></span> contact@example.com</li>
-                      </ul>
-                    </div>
+
                     <div class="socials">
                       <ul>
                         <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
                         <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
                         <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                        <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
                       </ul>
                     </div>
                   </div>
@@ -617,18 +523,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="copyright-box">
-            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

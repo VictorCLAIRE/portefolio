@@ -219,7 +219,36 @@ a:hover {
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
 }
+/*------/ socialAPropos /------*/
+.socialAPropos {
+  padding: 1.5rem 0;
+}
 
+.socialAPropos ul li {
+  display: inline-block;
+}
+
+.socialAPropos .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  box-shadow: 0 0 0 3px #0078ff;
+  transition: all 500ms ease;
+}
+
+.socialAPropos .ico-circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+.boxCvLinkedin{
+  border: solid 1px grey;
+  border-radius: 5px;
+
+}
 /*------/ Ul resect /------*/
 .ul-resect, .socials ul, .list-ico, .blog-wrapper .post-meta ul, .box-comments .list-comments, .widget-sidebar .list-sidebar, .widget-tags ul {
   list-style: none;
@@ -715,9 +744,42 @@ a:hover {
 /*--------------------------------------------------------------
 # APropos
 --------------------------------------------------------------*/
-.img_apropos{
-  width: 200px;
+.logo_cv{
+  width: 100px;
+
 }
+.img_apropos{
+  width: 150px;
+  border-radius: 50%;
+  border: solid rgb(63, 63, 63) 2px;
+}
+.img_apropos2{
+  background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 150px;
+  transition: all 1s ease-in-out;
+  width: 150px;
+  z-index: 5;
+  border: solid rgb(63, 63, 63) 2px;
+}
+@keyframes morph {
+  0% {
+			border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+			background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+	} 
+	
+	50% {
+			border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+			background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+	}
+  
+	100% {
+		border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+		background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+	} 
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -808,11 +870,19 @@ a:hover {
   text-align: center;
 }
 .counter-box .counterjs {
-  color: rgb(255, 230, 4);
+  color: #F7DF1E;
   text-align: center;
 }
 .counter-box .counterphp {
   color: rgb(141, 1, 146);
+  text-align: center;
+}
+.counter-box .countergit {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.counter-box .countersql {
+  color: rgb(73, 73, 73);
   text-align: center;
 }
 
@@ -1373,7 +1443,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #1b4471;
 }
 
 footer .copyright {
