@@ -21,7 +21,7 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/fontawesome-free-5.15.2-web/css/all.min" rel="stylesheet">
-  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 
 
   <!-- Template Main CSS File -->
@@ -216,7 +216,7 @@
           <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico counterhtml">
-                <span class="ico-circle"><i class="fab fa-html5"></i></span>
+                <span class=""><i class="fab fa-html5 fa-6x"></i></span>
               </div>
             </div>
           </div>
@@ -224,7 +224,8 @@
           <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico countercss">
-                <span class="ico-circle"><i class="fab fa-css3-alt"></i></span>
+                <span class=""><i class="fab fa-css3-alt fa-6x"></i></span>
+                <!--<span class="animate__animated animate__bounce animate__infinite	infinite logo_comp_bounce"><i class="fab fa-css3-alt fa-6x"></i></span>-->
               </div>
             </div>
           </div>
@@ -232,7 +233,7 @@
           <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico counterjs">
-                <span class="ico-circle"><i class="fab fa-js"></i></span>
+                <span class=""><i class="fab fa-js fa-6x"></i></span>
               </div>
             </div>
           </div>
@@ -240,7 +241,7 @@
           <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico counterphp">
-                <span class="ico-circle"><i class="fab fa-php"></i></span>
+                <span class=""><i class="fab fa-php fa-6x"></i></span>
               </div>
             </div>
           </div>
@@ -249,7 +250,7 @@
           <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico countergit">
-                <span class="ico-circle"><i class="fab fa-github"></i></span>
+                <span class=""><i class="fab fa-github fa-6x"></i></span>
               </div>
             </div>
           </div>
@@ -257,7 +258,7 @@
           <div class="col-sm-2 col-lg-2">
             <div class="counter-box pt-4 pt-md-0">
               <div class="counter-ico countersql">
-                <span class="ico-circle"><i class="fas fa-database"></i></span>
+                <span class=""><i class="fas fa-database fa-6x"></i></span>
               </div>
             </div>
           </div>
