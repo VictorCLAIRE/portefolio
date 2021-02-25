@@ -14,6 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
@@ -55,9 +56,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#work">PROJETS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">PROFIL</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#contact">Contact</a>
@@ -119,10 +117,10 @@
                             <img class="img_apropos" src="assets/img/code-2.jpg" alt="">                            
                         </div>
                         <div class="col-md-3 text-center">
-                            <img class="img_apropos" src="assets/img/randonnée.jpg" alt="">                             
+                            <img class="img_apropos" src="assets/img/randonnee.jpg" alt="">                           
                         </div>
                         <div class="col-md-3 text-center">
-                           <img class="img_apropos" src="assets/img/mental.jpg" alt="">                           
+                            <img class="img_apropos" src="assets/img/mental.jpg" alt="">                           
                         </div>
                         <div class="col-md-3 text-center">
                             <img class="img_apropos" src="assets/img/bibliotheque.jpg" alt="">                         
@@ -391,50 +389,6 @@
     </section>
     <!--------------------------- Fin de projet------------------------- -->
 
-    <!------------------------- ======= Profil ======= --------------->
-    <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="testimonial-mf" class="owl-carousel owl-theme">
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Xavi Alonso</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-              <div class="testimonial-box">
-                <div class="author-test">
-                  <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
-                  <span class="author">Marta Socrate</span>
-                </div>
-                <div class="content-test">
-                  <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.
-                  </p>
-                  <span class="comit"><i class="fa fa-quote-right"></i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </section>
-    <!--------------------- fin de profil ------------------->
-    <div>
-      <p>eededede</p>
-    </div>
     <!-- ======= Contact Section ======= -->
     <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
       <div class="overlay-mf"></div>
@@ -450,45 +404,34 @@
                         Me contacter:
                       </h5>
                     </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+                      <form action="forms/contact.php" method="post">
                         <div class="row">
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="Veuillez entrer votre nom svp" />
-                              <div class="validate"></div>
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" require data-msg="Veuillez entrer votre nom svp" />
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
                               <input type="email" class="form-control" name="email" id="email" placeholder="Votre mail" data-rule="email" data-msg="Veuillez entrer une adresse mail valide svp" />
-                              <div class="validate"></div>
                             </div>
                           </div>
                           <div class="col-md-12 mb-3">
                             <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Veuillez entrer le sujet de votre message svp" />
-                              <div class="validate"></div>
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" require data-msg="Veuillez entrer le sujet de votre message svp" />
                             </div>
                           </div>
                           <div class="col-md-12">
                             <div class="form-group">
                               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Veuillez nous écrire votre message svp" placeholder="Message"></textarea>
-                              <div class="validate"></div>
                             </div>
-                          </div>
-                          <div class="col-md-12 text-center mb-3">
-                            <div class="loading">Chargement</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">votre message a été envoyé avec succès, merci! </div>
                           </div>
                           <div class="col-md-12 text-center">
                             <button type="submit" class="button button-a button-big button-rouded">Envoyer le message</button>
                           </div>
                         </div>
                       </form>
-                    </div>
-
 
                     <div class="mt-10 title-box-2 pt-4 pt-md-0   text-center">
                       <div class="more-info ">
@@ -500,13 +443,13 @@
                       </div>
                     </div>
 
-                    <div class="socials">
+                    <!--<div class="socials">
                       <ul>
                         <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
                         <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
                         <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
                       </ul>
-                    </div>
+                    </div>-->
                   </div>
                 </div>
               </div>
@@ -514,7 +457,8 @@
           </div>
         </div>
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
   </main><!-- End #main -->
 
@@ -522,8 +466,14 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-
+        <div class="col-sm-4 text-center">
+            Victor CLAIRE 
+        </div>
+        <div class="col-sm-4 text-center">
+             Développeur web et mobile full stack
+        </div>
+        <div class="col-sm-4 text-center">
+             2020
         </div>
       </div>
     </div>

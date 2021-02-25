@@ -277,6 +277,18 @@ a:hover {
   box-shadow: 0 0 0 10px #0078ff;
   display: block;
 }
+.ico-circle-logo{
+  height: 120px;
+  width: 120px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+
+}
 
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {

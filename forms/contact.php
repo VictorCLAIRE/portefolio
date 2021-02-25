@@ -1,41 +1,60 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+
+
+  if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
+
+    $destinataire = "testdevvictor@gmail.com";
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $sujet = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $name;
+    $email;
+    $sujet;
+    $message2.='
+                  <!DOCTYPE html>
+                  <html lang="fr">
+                  <head>
+                    <meta http-equiv="Content-Type" content="text/html">
+                      <meta charset="UTF-8">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                    <title>Mail delivery </title>
+                  </head>
+                  <body>
+                    <table style="border: 4px solid black";>
+                      <tr style="background-color:red";>
+                        <div class=" text-center container">
+                            <td><h1>Vous avez reçu un message de : ' .$name. ' </h1></td>
+                        </div>
+                      </tr>
+                      <tr>
+                        <div class=" text-center">
+                          <td><h2>Le sujet du mail est : ' .$sujet. ' </h2></td>        
+                        </div>
+                      </tr>
+                      <tr>
+                        <div class=" text-center">
+                          <td><h3>Son adresse mail : ' .$email. '</h3></td>   
+                        </div>
+                      </tr>
+                      <tr style="border: 2px solid grey";>
+                        <div class=" text-center"> 
+                          <td><h3>Son message: ' .$message. '</h3></td>
+                        </div>
+                      </tr>
+                    </table>
+                  </body>
+                  </html>';
+                  $headers = "MIME-Version: 1.0" . "\r\n";
+                  $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+    mail ($destinataire,  $sujet, $message2, $headers);
+  } else{
+    echo 'errooooooooooor';
   }
-
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
-
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
-
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
-
-  echo $contact->send();
+  header("Location: https://victor-claire.alwaysdata.net/");
 ?>
