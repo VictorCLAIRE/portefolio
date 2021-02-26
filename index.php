@@ -98,8 +98,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <p class="lead">
-                                Passioné de technologie mes études se sont portés sur la domotique et les nouvelles énergies.
-                                Après un bts et une licence professionnelle ainsi que 3 années en entreprise dans ces domaines, 
+                                Passionné de technologie mes études se sont portés sur la domotique et les nouvelles énergies.
+                                Après un BTS et une licence professionnelle ainsi que 3 années en entreprise dans ces domaines, 
                                 j'ai décidé de me former à la programmation web qui est une passion grandissante.
                             </p>  
                         </div>
@@ -387,6 +387,15 @@
 
         </div>
       </div>
+      <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <p class="subtitle-a">
+                Retrouvez mes projets sur mon GitHub 
+              </p>
+              <a href="https://github.com/VictorCLAIRE?tab=repositories" target="_blank"><i class="fab fa-github fa-6x"></i></a>
+          </div>
+        </div>
     </section>
     <!--------------------------- Fin de projet------------------------- -->
 
