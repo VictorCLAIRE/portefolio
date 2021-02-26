@@ -99,8 +99,8 @@
                         <div class="col-md-12">
                             <p class="lead">
                                 Passioné de technologie mes études se sont portés sur la domotique et les nouvelles énergies.
-                                Après un bts et un licence professionnelle ainsi que 3 années en entreprise dans ces domaines, 
-                                j'ai décidé de me former à programmation web qui est pour passion grandissante.
+                                Après un bts et une licence professionnelle ainsi que 3 années en entreprise dans ces domaines, 
+                                j'ai décidé de me former à la programmation web qui est une passion grandissante.
                             </p>  
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                         <div class="col-md-12">
                             <p class="lead">
                               Je suis un fan inconditionnel de sport, de musique et de lecture. 
-                              J'aime relevé des défis, le travail en équipe et l'étude de problématique.
+                              J'aime relever des défis, le travail en équipe et l'étude de problématique.
                             </p>                               
                         </div>
                     </div>
