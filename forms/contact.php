@@ -1,11 +1,8 @@
 <?php
 
-
-
-
   if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['message'])){
 
-    $destinataire = "testdevvictor@gmail.com";
+    $destinataire = "victorclaire10@gmail.com";
     $name = $_POST['name'];
     $email = $_POST['email'];
     $sujet = $_POST['subject'];
@@ -14,7 +11,7 @@
     $name;
     $email;
     $sujet;
-    $message2.='
+    $message2='
                   <!DOCTYPE html>
                   <html lang="fr">
                   <head>
@@ -54,7 +51,9 @@
 
     mail ($destinataire,  $sujet, $message2, $headers);
   } else{
-    echo 'errooooooooooor';
+    echo 'erreur';
   }
-  header("Location: https://victor-claire.alwaysdata.net/");
+  echo 'Mail envoyée';
+  echo $message2;
+  //header("Location: https://victorclaire.com/");
 ?>
